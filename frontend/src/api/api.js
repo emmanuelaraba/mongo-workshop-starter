@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:3000/api";
+const BASE_URL = import.meta.env.REACT_APP_BASE_URL;  
 const CONTACTS_URL = `${BASE_URL}/contacts`;
 
 /**
