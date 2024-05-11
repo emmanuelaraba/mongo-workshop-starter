@@ -1,5 +1,5 @@
-const BASE_URL = import.meta.env.REACT_APP_BASE_URL;  
-const CONTACTS_URL = `${BASE_URL}/contacts`;
+const BASE_URL = import.meta.env.VITE_API_BASE_URL;  
+const CONTACTS_URL = `${BASE_URL}/api/contacts`;
 
 /**
  * Sends a POST request to the server to create a new contact.
